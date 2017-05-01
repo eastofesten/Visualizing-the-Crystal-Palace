@@ -1,0 +1,507 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Column2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Genoa",
+          " manu. Genoa."
+        ],
+        "to": " manu. Genoa"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " pat. & manu. Brook",
+          " pat. &m.anu. Brook"
+        ],
+        "to": " pat. & manu. Brook"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Bremen",
+          " manu. Bremen."
+        ],
+        "to": " manu. Bremen"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. & prop. Rochester",
+          " manu. &prop. Rochester"
+        ],
+        "to": " manu. & prop. Rochester"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Cincinnati",
+          " m.anu. Cincinnati"
+        ],
+        "to": " manu. Cincinnati"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Rhode Island",
+          " Rhode Island."
+        ],
+        "to": " Rhode Island"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Demarara.",
+          " Demarara"
+        ],
+        "to": " Demarara."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu",
+          " manu."
+        ],
+        "to": " manu"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " St. Johns.",
+          " St Johns."
+        ],
+        "to": " St. Johns."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. & prop. St Louis",
+          " prop. & manu. St. Louis"
+        ],
+        "to": " manu. & prop. St Louis"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Connecticut.",
+          " Connecticut"
+        ],
+        "to": " Connecticut"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Ohio.",
+          " Ohio. ."
+        ],
+        "to": " Ohio"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Belfast",
+          "\" Belfast"
+        ],
+        "to": " Belfast"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " England.",
+          " England"
+        ],
+        "to": " England"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Prague",
+          " manu. Prague."
+        ],
+        "to": " manu. Prague"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Waidhofen",
+          " manu. \"Waidhofen"
+        ],
+        "to": " manu. Waidhofen"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Paris.",
+          " manu. Paris. _"
+        ],
+        "to": " manu. Paris."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Berlin",
+          " manu. Berlin."
+        ],
+        "to": " manu. Berlin"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Staffordshire",
+          " manu. Staffordshire."
+        ],
+        "to": " manu. Staffordshire"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " manu. Dublin",
+          " manu. Dublin."
+        ],
+        "to": " manu. Dublin"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Column2",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Netherlands.",
+          " Netherlands. "
+        ],
+        "to": " Netherlands."
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Column3",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Column3",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Austria Proper.",
+          " Austria Proper",
+          " Austria Proper. .",
+          " Austria Proper. Austria."
+        ],
+        "to": "Austria Proper"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Wurtemberg.",
+          " Wurtemberg",
+          " Wurtemberg. _",
+          "Wurtemberg."
+        ],
+        "to": "Wurtemberg"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " NeuchateL",
+          " Neuchatel",
+          " Neuchatel."
+        ],
+        "to": "Neuchatel"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Maryland.",
+          " Maryland",
+          " Maryland. '"
+        ],
+        "to": " Maryland"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Prussia.",
+          " Prussia",
+          "Prussia."
+        ],
+        "to": " Prussia"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Missouri.",
+          " Missouri",
+          " Missouri\""
+        ],
+        "to": " Missouri"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " England.",
+          " England",
+          " England. . ."
+        ],
+        "to": " England"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Paris.",
+          " Paris",
+          " Paris. . .. "
+        ],
+        "to": " Paris"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Rhode Island.",
+          " Rhode Island. . ."
+        ],
+        "to": " Rhode Island"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Williamsburgh",
+          " Williamsburgh."
+        ],
+        "to": " Williamsburgh"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Ohio.",
+          " Ohio"
+        ],
+        "to": "Ohio"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Tennessee.",
+          " Tennessee"
+        ],
+        "to": "Tennessee"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " North Germany.",
+          " North Germany"
+        ],
+        "to": " North Germany."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " New Jersey.",
+          " New Jersey"
+        ],
+        "to": " New Jersey"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Sheffield",
+          " Sheffield."
+        ],
+        "to": " Sheffield"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Nuremberg",
+          ". Nuremberg"
+        ],
+        "to": " Nuremberg"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Bavaria.",
+          " Bavaria"
+        ],
+        "to": " Bavaria"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Hesse",
+          " Hesse."
+        ],
+        "to": " Hesse"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Long Island",
+          " Long Island."
+        ],
+        "to": " Long Island"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Austria",
+          " Austria."
+        ],
+        "to": " Austria"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Canton Neuchatel.",
+          " Canton NeuchateL"
+        ],
+        "to": " Canton Neuchatel"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Dublin.",
+          " Dublin"
+        ],
+        "to": " Dublin"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Edinburgh",
+          " Edinburgh."
+        ],
+        "to": " Edinburgh"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Belfast",
+          " Belfast."
+        ],
+        "to": " Belfast"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Ireland.",
+          " Ireland"
+        ],
+        "to": " Ireland"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " near Nuremberg",
+          " near Nuremberg."
+        ],
+        "to": " near Nuremberg"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Berne.",
+          " Berne"
+        ],
+        "to": " Berne."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Pennsylvania.",
+          " Pennsylvania"
+        ],
+        "to": " Pennsylvania"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " New York City.",
+          " New : York City."
+        ],
+        "to": " New York City"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Saxony.",
+          " Saxony. '"
+        ],
+        "to": " Saxony"
+      }
+    ]
+  }
+]

@@ -1,0 +1,304 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Role",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Role",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "manu. & prop",
+          "manu. & prop."
+        ],
+        "to": "manu. & prop"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "printer",
+          "printer "
+        ],
+        "to": "printer"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "daguerran artist",
+          "Daguerran artist"
+        ],
+        "to": "Daguerran artist"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "pat.",
+          "pat. "
+        ],
+        "to": "pat."
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column country-or-state",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "country-or-state",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New York",
+          "New York.",
+          "New- York",
+          "New- York."
+        ],
+        "to": "New York"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New-York City.",
+          "New-York City. ",
+          "New-York City"
+        ],
+        "to": "New-York City."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Paris",
+          "Paris.",
+          "Paris. "
+        ],
+        "to": "Paris"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New Jersey.",
+          "New Jersey",
+          "New Jersey. "
+        ],
+        "to": "New Jersey"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bremen.",
+          " Bremen."
+        ],
+        "to": "Bremen"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Rhode Island",
+          "Rhode Island."
+        ],
+        "to": "Rhode Island"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sardinia.",
+          "Sardinia"
+        ],
+        "to": "Sardinia"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ohio",
+          "Ohio."
+        ],
+        "to": "Ohio"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bohemia.",
+          "Bohemia. "
+        ],
+        "to": "Bohemia"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Austria Proper",
+          "Austria Proper."
+        ],
+        "to": "Austria Proper"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Maryland",
+          "Maryland."
+        ],
+        "to": "Maryland"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ireland",
+          "Ireland."
+        ],
+        "to": "Ireland"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Prussia.",
+          "Prussia"
+        ],
+        "to": "Prussia"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Kentucky.",
+          "Kentucky"
+        ],
+        "to": "Kentucky"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New-York.",
+          "New-York"
+        ],
+        "to": "New York"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New York City",
+          "New- York City."
+        ],
+        "to": "New York City"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Venice.",
+          " \"Venice."
+        ],
+        "to": "Venice"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Saxony",
+          "Saxony."
+        ],
+        "to": "Saxony"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Maine",
+          "Maine."
+        ],
+        "to": "Maine"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Connecticut",
+          "Connecticut."
+        ],
+        "to": "Connecticut"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bavaria",
+          "Bavaria."
+        ],
+        "to": "Bavaria"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vermont",
+          "Vermont."
+        ],
+        "to": "Vermont"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Placename - PR",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Placename - PR",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Berlin, Prussia",
+          "Berlin, Prussia."
+        ],
+        "to": "Berlin, Prussia"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bremen",
+          " Bremen."
+        ],
+        "to": "Bremen"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Paris",
+          "Paris."
+        ],
+        "to": "Paris"
+      }
+    ]
+  }
+]

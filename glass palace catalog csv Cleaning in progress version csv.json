@@ -1,0 +1,418 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column country-or-state",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "country-or-state",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New- York City.",
+          "New York City.",
+          "New- York City",
+          ") New- York City.",
+          "New -York City.",
+          "New : York City.",
+          "New- York City. '",
+          "New- York City. ..."
+        ],
+        "to": "New York City"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New-York City.",
+          " \"New-York City.",
+          "New-York City",
+          "New-York City!",
+          "New-York City:",
+          "New^York City."
+        ],
+        "to": "New York City"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "New- York.",
+          "New York.",
+          "New- York",
+          "New- York.."
+        ],
+        "to": "New York"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Connecticut.",
+          "Connecticut",
+          "Co-nnecticut. '",
+          "Connecticut. ."
+        ],
+        "to": "Connecticut"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Austria Proper.",
+          "Austria Proper",
+          "Austria Proper. ."
+        ],
+        "to": "Austria Proper"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Maryland.",
+          "Maryland",
+          "Maryland. '"
+        ],
+        "to": "Maryland"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Missouri.",
+          " Missouri\"",
+          "Missouri"
+        ],
+        "to": "Missouri"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Wurtemberg.",
+          "Wurtemberg",
+          "Wurtemberg. _"
+        ],
+        "to": "Wurtemberg"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Massachusetts.",
+          "Massachusetts",
+          "Massachusetts.'"
+        ],
+        "to": "Massachusetts"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Saxony.",
+          "Saxony. '",
+          "Saxony.-"
+        ],
+        "to": "Saxony"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "England.",
+          "England",
+          "England. ."
+        ],
+        "to": "England"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Paris.",
+          "Paris. _",
+          "Paris.;"
+        ],
+        "to": "Paris"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Rhode Island.",
+          "Rhode Island. . ."
+        ],
+        "to": "Rhode Island"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NeuchateL",
+          "Neuchatel."
+        ],
+        "to": "Neuchatel"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Rhenish Prussia.",
+          "Rhenish- Prussia."
+        ],
+        "to": "Rhenish Prussia"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ne- therlands.",
+          "Ne- therlands. _ ."
+        ],
+        "to": "Netherlands."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ohio.",
+          "Ohio. ."
+        ],
+        "to": "Ohio"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North Germany.",
+          "North Germany"
+        ],
+        "to": "North Germany"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hesse-Darmstadt.",
+          "Hesse-Darmstadt"
+        ],
+        "to": "Hesse-Darmstadt"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bavaria.",
+          "Bavaria"
+        ],
+        "to": "Bavaria"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vermont.",
+          "Vermont"
+        ],
+        "to": "Vermont"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "(Rhone).",
+          "Rhone."
+        ],
+        "to": "Rhone"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Saxe Weimar.",
+          "Saxe- Weimar. ."
+        ],
+        "to": "Saxe Weimar"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Canton NeuchateL",
+          "Canton Neuchatel."
+        ],
+        "to": "Canton Neuchatel"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "(Seine Inferieure.)",
+          "Seine Inferieure."
+        ],
+        "to": "Seine Inferieure"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hesse Darmstadt.",
+          "Hesse- Darmstadt."
+        ],
+        "to": "Hesse Darmstadt"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "St Etienne Loire.",
+          "St. Etienne (Loire)."
+        ],
+        "to": "St. Etienne Loire"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "(Haut Rhin.)",
+          "Haut Rhin."
+        ],
+        "to": "Haut Rhin"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ireland.",
+          "Ireland"
+        ],
+        "to": "Ireland"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hamburg.",
+          "Hamburg. '"
+        ],
+        "to": "Hamburg"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nord.",
+          "(Nord)."
+        ],
+        "to": "Nord"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Role",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "columnName": "Role",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "prop.",
+          "prop,",
+          "prop"
+        ],
+        "to": "prop."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "manu. & prop",
+          "prop. & manu."
+        ],
+        "to": "manu. & prop"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "imp.",
+          "imp"
+        ],
+        "to": "imp."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "des. & inv",
+          "inv. & des"
+        ],
+        "to": "des. & inv"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "des.",
+          "des"
+        ],
+        "to": "des."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "manu. & imp",
+          "imp. & manu."
+        ],
+        "to": "manu. & imp"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "prod.",
+          "prod"
+        ],
+        "to": "prod."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "manu.",
+          "manu"
+        ],
+        "to": "manu."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "inv.",
+          "inv"
+        ],
+        "to": "inv."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "prod. & manu.",
+          "manu. & prod"
+        ],
+        "to": "prod. & manu."
+      }
+    ]
+  }
+]
