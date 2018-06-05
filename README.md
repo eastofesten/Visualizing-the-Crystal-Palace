@@ -1,11 +1,11 @@
 # Visualizing-the-Crystal-Palace
 The 1853 New York Crystal Palace, also known as the Exhibition of the Industry of All Nations, was America’s first world fair. Modeled on the Great Exhibition held at the Crystal Palace in London, the exhibition sought to “draw forth such a representation of the world’s industry and resources as would enable us to measure the strength and value of our own, while it indicated new aims for our enterprise and skill.” 
-This dataset, produced from the OCR of [Cornell University’s digitized record of the official catalogue of the exhibition](https://babel.hathitrust.org/cgi/pt?id=coo1.ark:/13960/t4zg76w7k)represents over 3,000 objects on display at the exhibition. In an effort to make this data available for study, analysis, and reuse, Steven Lubar, along with Emily Esten, Steffani Gomez, and Brown’s Center for Digital Scholarship (Brian Croxall, Eli Mylonas, and Patrick Rashleigh) reformatted the data as a CSV.
+This dataset, produced from the OCR of [Cornell University’s digitized record of the official catalogue of the exhibition](https://babel.hathitrust.org/cgi/pt?id=coo1.ark:/13960/t4zg76w7k) represents over 3,000 objects on display at the exhibition. In an effort to make this data available for study, analysis, and reuse, Steven Lubar, along with Emily Esten, Steffani Gomez, and Brown’s Center for Digital Scholarship (Brian Croxall, Eli Mylonas, and Patrick Rashleigh) reformatted the data as a CSV.
 ## Considerations
 For the “longitude” and “latitude” of objects in New York City, more exact coordinates are provided down to a street or address level. 
 Please note that the catalogue and the subsequent dataset have been extensively researched and cleaned, but still include errors. Anyone who may detect omissions or mistakes of any kind - please, send in your corrections. 
-To read more about the history of the New York Crystal Palace’s catalog, please go to[Cataloging History, Part 2.](https://medium.com/@lubar/the-new-york-crystal-palace-catalogs-b09d1f2bd20e)
-To see detailed information about our internal descriptive standards and the project behind this data, please go to our [Medium posts.](https://medium.com/@lubar/the-new-york-crystal-palace-catalogs-b09d1f2bd20e)
+To read more about the history of the New York Crystal Palace’s catalog, please go to [Cataloging History, Part 2.](https://medium.com/@lubar/the-new-york-crystal-palace-catalogs-b09d1f2bd20e)
+To see detailed information about our internal descriptive standards and the project behind this data, please go to our  [Medium posts.](https://medium.com/@lubar/the-new-york-crystal-palace-catalogs-b09d1f2bd20e)
 ## Repository Contents 
 The data is currently available in CSV format. **The fields are as follows for the Exhibition Catalog:**
 
